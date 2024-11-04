@@ -20,10 +20,30 @@
 
 let isLoggedIn = "Pavan"
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn)
+// console.log(booleanIsLoggedIn)
 
 // conclusions
 
 // 1 => ture, 0 => false
 // "" => false 
 // "Pavan" => ture 
+
+// ************************** Operations ******************************
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2/2);
+// console.log(2%2);
+
+let str1 = "Hello"
+let str2 = "Pavan"
+console.log(str1+str2); //Hello Pavan
+
+console.log("1" + 2); //reture 12
+console.log (1 + "2"); //return 12
+console.log("1" + "2"); //return 12
+console.log(1 + "2"); //return 12
+console.log ("1" + 2 + 3); // return 123
+console.log(1 + 2 + "3"); //return 33  visit "ecma" documentation for more detail
+
